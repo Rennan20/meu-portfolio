@@ -22,8 +22,8 @@
       }
 
       .image-div img {
-        width: 67px;
-        height: 64px;
+        width: 60px;
+        height: 60px;
         outline: none;
         text-decoration: none;
       }
@@ -34,6 +34,7 @@
       }
 
       .image-container p {
+
         margin-top: 10px;
       }
 
@@ -50,6 +51,10 @@
       }
       img:hover {
         transform: rotateX(0deg) rotateY(0deg) translate(-5px, -5px);
+      }
+
+      .row p {
+                font-size: 1rem;
       }
     </style>
     <title>Meu Portfólio</title>
@@ -110,7 +115,7 @@
           <li>
             <a
               target="_blank"
-              href="mailto:jrennan99@gmail.com?subject=Email from website&body=Hello, I found you on your website and I would like to ask you some questions."
+              href="mailto:jrennan99@gmail.com?subject=Email from website&body=Hello, Eu vim pelo seu portfólio e estou interessado em falar com você!"
               class="icon solid fa-envelope"
               ><span class="label">Email</span></a
             >
@@ -313,89 +318,60 @@
               simples aos mais complexos, todos estão abertos para
               implementações conforme meus conhecimentos evoluirem.
             </p>
-            <div class="features">
-              <article>
-                <a
-                  target="_blank"
-                  href="https://rennan20.github.io/java-jogodavelha/"
-                  class="image"
-                  ><img src="images/velha.png" alt=""
-                /></a>
-                <div class="inner">
-                  <h4 style="color: #ccc">Jogo da Velha</h4>
-                  <p style="color: #ccc">
-                    Jogo da velha simples feito com JavaScript
-                  </p>
-                </div>
-              </article>
-              <article>
-                <a
-                  target="_blank"
-                  href="https://rennan20.github.io/java-quiz/"
-                  class="image"
-                  ><img src="images/quiz.png" alt=""
-                /></a>
-                <div class="inner">
-                  <h4 style="color: #ccc">Quiz</h4>
-                  <p style="color: #ccc">Quiz com questões sobre JavaScript</p>
-                </div>
-              </article>
-              <article>
-                <a
-                  target="_blank"
-                  href="https://rennan20.github.io/java-form/"
-                  class="image"
-                  ><img src="images/form.png" alt=""
-                /></a>
-                <div class="inner">
-                  <h4 style="color: #ccc">Validador de Formulário</h4>
-                  <p style="color: #ccc">
-                    Validador de formulário simples feito com JavaScript
-                  </p>
-                </div>
-              </article>
-              <article>
-                <a
-                  target="_blank"
-                  href="https://rennan20.github.io/java-clima/"
-                  class="image"
-                  ><img src="images/clima.png" alt=""
-                /></a>
-                <div class="inner">
-                  <h4 style="color: #ccc">Visualizador climático</h4>
-                  <p style="color: #ccc">
-                    Visualizador climático que trabalha com requisições
-                  </p>
-                </div>
-              </article>
-              <article>
-                <a
-                  target="_blank"
-                  href="https://react-calc-imc-snowy.vercel.app/"
-                  class="image"
-                  ><img src="images/calc-imc.png" alt=""
-                /></a>
-                <div class="inner">
-                  <h4 style="color: #ccc">Calculador de IMC</h4>
-                  <p style="color: #ccc">
+           <div class="features">
+    <div class="row">
+        <article class="col-6">
+            <a target="_blank" href="https://rennan20.github.io/java-jogodavelha/" class="image" ><img src="images/velha.png" alt="" style="width: 100%;" /></a>
+            <div class="inner">
+                <h5 style="color: #ccc">Jogo da Velha</h5>
+                <p style="color: #ccc">Jogo da velha simples feito com JavaScript</p>
+            </div>
+        </article>
+        <article class="col-6">
+            <a target="_blank" href="https://rennan20.github.io/java-quiz/" class="image" ><img src="images/quiz.png" alt="" style="width: 100%;"/></a>
+            <div class="inner">
+                <h5 style="color: #ccc">Quiz</h5>
+                <p style="color: #ccc">Quiz com questões sobre JavaScript</p>
+            </div>
+        </article>
+    </div>
+     <div class="row">
+        <article class="col-6">
+            <a target="_blank" href="https://rennan20.github.io/java-form/" class="image" ><img src="images/form.png" alt="" style="width: 100%;" /></a>
+            <div class="inner">
+                <h5 style="color: #ccc">Validador de Formulário</h5>
+                <p style="color: #ccc">Validador de Formulário simples feito com JavaScript</p>
+            </div>
+        </article>
+        <article class="col-6">
+            <a target="_blank" href="https://rennan20.github.io/java-clima/" class="image" ><img src="images/clima.png" alt="" style="width: 100%;"/></a>
+            <div class="inner">
+                <h5 style="color: #ccc">Visualizador climático</h5>
+                <p style="color: #ccc">Visualizador climático com requisições API</p>
+            </div>
+        </article>
+    </div>         
+     <div class="row">
+        <article class="col-6">
+            <a target="_blank" href="https://react-calc-imc-snowy.vercel.app/" class="image" ><img src="images/calc-imc.png" alt="" style="width: 100%;" /></a>
+            <div class="inner">
+                  <h5 style="color: #ccc">Calculador de IMC</h5>
+                                 <p style="color: #ccc">
                     Calculadora IMC simples que trabalha com React
                   </p>
-                </div>
-              </article>
-              <article>
-                <a
-                  target="_blank"
-                  href="https://expense-manager-beryl.vercel.app/"
-                  class="image"
-                  ><img src="images/expense.png" alt=""
-                /></a>
-                <div class="inner">
-                  <h4 style="color: #ccc">Gerenciador Financeiro</h4>
+
+            </div>
+        </article>
+        <article class="col-6">
+            <a target="_blank"     href="https://expense-manager-beryl.vercel.app/" class="image" ><img src="images/expense.png" alt="" style="width: 100%;"/></a>
+            <div class="inner">
+                 <h5 style="color: #ccc">Gerenciador Financeiro</h5>
                   <p style="color: #ccc">
                     Gerenciador financeiro feito em React
                   </p>
-                </div>
-              </article>
+            </div>
+        </article>
+    </div>
               <article>
                 <a
                   target="_blank"
@@ -404,10 +380,25 @@
                   ><img src="images/minirpg.png" alt=""
                 /></a>
                 <div class="inner">
-                  <h4 style="color: #ccc">Mini RPG</h4>
+                  <h5 style="color: #ccc">Mini RPG</h5>
                   <p style="color: #ccc">
                     Interação de diversos elementos no estilo RPG, feito em
                     React
+                  </p>
+                </div>
+              </article>
+              <article>
+                <a
+                  target="_blank"
+                  href="https://netflix-clone-51cb3.web.app/"
+                  class="image"
+                  ><img src="images/Netflix.jpg" alt=""
+                /></a>
+                <div class="inner">
+                  <h5 style="color: #ccc">Clone Netflix</h5>
+                  <p style="color: #ccc">
+                    Clone da Netflix utilizando Firebase e Firecloud para armazenar usuários e exibir uma tela com filmes 
+                    da API tmdb.
                   </p>
                 </div>
               </article>
